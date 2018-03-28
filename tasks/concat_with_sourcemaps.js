@@ -39,7 +39,7 @@ module.exports = function (grunt) {
 
                 var mappedFileName = filename;
                 var sourceFileContent = '';
-                var sourceMapContent = '';
+                var sourceMapContent = null;
 
                 var fileArray = fileSrc.split('\n');
                 for (j = 0; j < fileArray.length - 1; j++) {
